@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Preparación de comidas y recetas</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="/assets/application.css">
+</head>
+<body>
+    <h1>Proyectos</h1>
+    <p>Aquí encontrarás algunos proyectos que he realizado durante mi paricipación en el curso Ruby on Rails para Startups</p>
+    
+   <div class="row">
+    <div class="col">
+    <div class="card">
+      <%= link_to image_tag("Mapa_conceptual.png", class: "card-img-top", alt: "CV_C_Ronaldo.png") %>
+      <div class="card-body">
+        <h5 class="card-title">Desafío evaluado - Mapa conceptual</h5>
+        <p class="card-text">Ejercicio que consiste en la realización de un mapa conceptual y un breve resumen, integrando los conocimientos adquiridos respecto de la industria TI.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <%= link_to image_tag("CV_C_Ronaldo.png", class: "card-img-top", alt: "CV_C_Ronaldo.png") %>
+      <div class="card-body">
+        <h5 class="card-title">Desafío evaluado - Currículum Vitae en HTML</h5>
+        <p class="card-text">La actividad consiste en armar un CV en HTML. Se debe utilizar la estructura básica y todas las etiquetas estudiadas.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+      <%= link_to image_tag("DB_relacionales.png", class: "card-img-top", alt: "CV_C_Ronaldo.png") %>
+      <div class="card-body">
+        <h5 class="card-title">Desafío evaluado - Bases de datos relacionales</h5>
+        <p class="card-text">Este desafío consiste en 
+grabar un video realizando las operaciones requeridas: creación de una base de datos con sus tablas, ingreso de datos y realización de consultas.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
